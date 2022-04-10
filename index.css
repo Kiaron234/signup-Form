@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 250px;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+}
+
+.logo-back {
+    position: absolute;
+    height: min(600px,100%);
+    
+}
+
+.logo-front {
+    position: relative;
+    height: min(300px, 50%);
+    width: 100%;
+    
+
+}
+
+.content {
+    width: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.form{
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input{
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+button{
+    background-color: #596D48;
+    color: var(--color);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background-color: var(--color);
+    color: black;
+    
+}
+
+.log-in{
+    display: flex;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 700;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.text {
+    width: min(520px,100%);
+}
